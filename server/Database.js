@@ -4,7 +4,7 @@ const Note = require('./schemas/note')
 class Database {
     constructor() {
         // this.Url = "mongodb://localhost:27017/notaty"
-        this.Url = "mongodb+srv://admin:<passoword>@cluster0.ygj7v.mongodb.net/<DatabaseName>?retryWrites=true&w=majority"
+        this.Url = "mongodb+srv://admin:admin123@cluster0.ygj7v.mongodb.net/notaty?retryWrites=true&w=majority"
     }
 
     connect() {
